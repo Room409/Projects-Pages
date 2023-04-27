@@ -1,0 +1,26 @@
+
+nav{
+    background-color: #3c3f42;
+}
+
+.navbar-collapse{
+    background-color: #3c3f42;
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    transform: scale(1.1);
+
+}
+.nav-link:hover{
+    text-decoration: underline;
+    transition: 0.3s;
+    transform: translateY(-2px);
+}
+
+.UTN-logo{
+    height: 70px;
+    width: auto;
+}
