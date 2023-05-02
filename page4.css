@@ -1,8 +1,51 @@
-.navbar-brand img{
-    width: 100px;
-    height: 40px;
+header {
+  background-image: url('./IMG-Futu/avatar.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 800px;
 }
+
+.navbar-brand img {
+  width: 100px;
+  height: 40px;
+}
+
 .nav-link:hover {
-    transform: translateY(-2px) !important;
-    transition: all 0.3s ease !important;
-  }
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+  text-decoration: underline white;
+}
+
+.background {
+  background-color: #040405;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px 2px #fff, 0 0 5px 2px #fff, 0 0 7px 2px #fff, 0 0 10px 3px #fff;
+  transition: 0.3s;
+  transform: scale(1.02);
+}
+
+.padding-container-1 {
+  padding-top: 100px;
+  padding-bottom: 100px
+}
+
+.section-2 {
+  background-color: #0d0d11;
+}
+
+.footer-edit {
+  background-color: #201f20;
+  padding: 100px 0;
+}
+
+.input-custom{
+  height: 50px;
+  margin-top: 25px;
+}
+
+.footer-2-custom{
+  height: 200px;
+}
