@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@800&display=swap');
+
+
+.img-contain {
+    background-image: url('./Planet/test3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar-brand img {
+    width: 100px;
+    height: 40px;
+}
+
+.nav-link {
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    text-decoration: underline white;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+h1, .font-custom{
+    font-family: 'Unbounded', cursive;
+}
+
+.custom-icons{
+    font-size: 60px;
+    color: rgb(11, 119, 207);
+}
+.bg-custom{
+    background-color: rgb(12, 12, 12);
+}
+
+.section-3-custom{
+    margin: 150px 0;
+}
+.hyphen-blue{
+    border-radius: 10px;
+    margin: auto 0;
+    height: 6px;
+    width: 50px;
+    background-color: rgb(11, 119, 207);
+}
+
+.button-custom{
+    width: 18rem;
+    height: 3rem;
+}
+
+td{
+    height: 70px;
+    
+}
+
+.bg-custom-andromeda, .bg-custom-moon{
+    background: linear-gradient(to bottom, rgb(10, 10, 10), transparent)
+}
+
+.bg-custom-saturn{
+    background: linear-gradient(to bottom, rgb(31, 120, 238), transparent);
+}
+
+.table-opcity{
+    border: rgb(66, 66, 66);
+}
+.pic-profile{
+    width: 80px;
+}
+
+.margin-sections{
+    margin-top: 8rem;
+}
+
+.bg-comments{
+    background-color: rgb(10, 10, 10);
+    padding: 2rem;
+}
+
+.logo-custom{
+    height: 3rem;
+}
